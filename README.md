@@ -5,12 +5,12 @@ Integrate interactive code blocks into your documentation with [Juniper](https:/
 
 To install `sphinx-juniper` first clone and install it:
 
-```
+```bash
 pip install sphinx-juniper
 ```
 
 Then, add it to your Jupyter Book's `_config.yml` file:
-```
+```yaml
 sphinx:
   extra_extensions:
     - sphinx_juniper
