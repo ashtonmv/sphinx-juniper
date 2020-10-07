@@ -1,0 +1,28 @@
+#######################################################################################
+# Book settings
+title : Sphinx Juniper
+author: Michael Ashton
+logo: 'grapes.png'
+
+# Information about where the book exists on the web
+description: A brief introduction to using sphinx-juniper
+
+#######################################################################################
+# Execution settings
+execute:
+  execute_notebooks: cache
+
+#######################################################################################
+# HTML-specific settings
+html:
+  home_page_in_navbar: true
+
+# #######################################################################################
+# Interact link settings
+notebook_interface: "notebook"
+
+#######################################################################################
+sphinx:
+  extra_extensions:
+  config:
+    juniper:
